@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-14T21:01:37 PDT" name="My automation Suite" finished-at="2023-06-14T21:04:18 PDT" duration-ms="160985">
+    <groups>
+    </groups>
+    <test started-at="2023-06-14T21:01:37 PDT" name="chromeTest" finished-at="2023-06-14T21:04:18 PDT" duration-ms="160985">
+      <class name="salesforce.SalesForceAutomationScripts">
+        <test-method is-config="true" signature="setUpForBeforeTest()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:01:37 PDT" name="setUpForBeforeTest" finished-at="2023-06-14T21:01:38 PDT" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeTest -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:01:38 PDT" name="TestInitialize" finished-at="2023-06-14T21:01:43 PDT" duration-ms="5392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case10_CreateAccount()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:01:43 PDT" name="case10_CreateAccount" finished-at="2023-06-14T21:02:09 PDT" duration-ms="25456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case10_CreateAccount -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:09 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:02:09 PDT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:09 PDT" name="TestInitialize" finished-at="2023-06-14T21:02:13 PDT" duration-ms="4237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case11_CreateNewView()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:13 PDT" name="case11_CreateNewView" finished-at="2023-06-14T21:02:32 PDT" duration-ms="18902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case11_CreateNewView -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:32 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:02:32 PDT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:32 PDT" name="TestInitialize" finished-at="2023-06-14T21:02:36 PDT" duration-ms="4123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case1_LoginErrorMessage()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:36 PDT" name="case1_LoginErrorMessage" finished-at="2023-06-14T21:02:38 PDT" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case1_LoginErrorMessage -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:38 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:02:38 PDT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:38 PDT" name="TestInitialize" finished-at="2023-06-14T21:02:43 PDT" duration-ms="4504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case2_Successful_LoginToSalesForce()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:43 PDT" name="case2_Successful_LoginToSalesForce" finished-at="2023-06-14T21:02:49 PDT" duration-ms="6003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case2_Successful_LoginToSalesForce -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:49 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:02:49 PDT" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:49 PDT" name="TestInitialize" finished-at="2023-06-14T21:02:54 PDT" duration-ms="4353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case3_CheckRememberMe()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:02:54 PDT" name="case3_CheckRememberMe" finished-at="2023-06-14T21:03:04 PDT" duration-ms="10846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case3_CheckRememberMe -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:04 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:03:05 PDT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:05 PDT" name="TestInitialize" finished-at="2023-06-14T21:03:09 PDT" duration-ms="4380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case4A_ForgotPassword()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:09 PDT" name="case4A_ForgotPassword" finished-at="2023-06-14T21:03:10 PDT" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case4A_ForgotPassword -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:10 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:03:10 PDT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:10 PDT" name="TestInitialize" finished-at="2023-06-14T21:03:14 PDT" duration-ms="4326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case4B_ForgotPassword()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:14 PDT" name="case4B_ForgotPassword" finished-at="2023-06-14T21:03:17 PDT" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case4B_ForgotPassword -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:17 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:03:17 PDT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:17 PDT" name="TestInitialize" finished-at="2023-06-14T21:03:21 PDT" duration-ms="4343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case5_UserMenuDropdown()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:21 PDT" name="case5_UserMenuDropdown" finished-at="2023-06-14T21:03:28 PDT" duration-ms="6437" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title not matched expected [Home Page ~ Salesforce - Developer Edition] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title not matched expected [Home Page ~ Salesforce - Developer Edition] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at automationbasePage.BasePage.assertPageTitle(BasePage.java:52)
+at salesforce.SalesForceAutomationScripts.case5_UserMenuDropdown(SalesForceAutomationScripts.java:131)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case5_UserMenuDropdown -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:28 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:03:29 PDT" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:29 PDT" name="TestInitialize" finished-at="2023-06-14T21:03:34 PDT" duration-ms="5041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case7_MySettings_UserMenuDropDown()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:03:34 PDT" name="case7_MySettings_UserMenuDropDown" finished-at="2023-06-14T21:04:00 PDT" duration-ms="26907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case7_MySettings_UserMenuDropDown -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:04:00 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:04:01 PDT" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="TestInitialize(java.lang.String)[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:04:01 PDT" name="TestInitialize" finished-at="2023-06-14T21:04:05 PDT" duration-ms="4643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialize -->
+        <test-method signature="case8_DeveloperConsole()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:04:05 PDT" name="case8_DeveloperConsole" finished-at="2023-06-14T21:04:18 PDT" duration-ms="12092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case8_DeveloperConsole -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:salesforce.SalesForceAutomationScripts@6da21078]" started-at="2023-06-14T21:04:18 PDT" name="tearDownAfterTestMethod" finished-at="2023-06-14T21:04:18 PDT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- salesforce.SalesForceAutomationScripts -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- My automation Suite -->
+</testng-results>

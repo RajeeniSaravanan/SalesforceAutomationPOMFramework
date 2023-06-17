@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 184.231 s <<< FAILURE! - in TestSuite
+case10_CreateAccount(salesforce.SalesForceAutomationScripts)  Time elapsed: 15.973 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='lexNoThanks']"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SARAS-CNB01', ip: '10.0.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SARAVA~1.SOM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41c1571ae1a52c578752d14c74809e89
+*** Element info: {Using=xpath, value=//*[@id='lexNoThanks']}
+	at salesforce.SalesForceAutomationScripts.case10_CreateAccount(SalesForceAutomationScripts.java:233)
+
+case7_MySettings_UserMenuDropDown(salesforce.SalesForceAutomationScripts)  Time elapsed: 23.46 s  <<< FAILURE!
+java.lang.AssertionError: Reports tab not present expected [Reports] but found [Accounts]
+	at salesforce.SalesForceAutomationScripts.case7_MySettings_UserMenuDropDown(SalesForceAutomationScripts.java:169)
+
+case8_DeveloperConsole(salesforce.SalesForceAutomationScripts)  Time elapsed: 9.907 s  <<< FAILURE!
+java.lang.AssertionError: Title not matched expected [Home Page ~ Salesforce - Developer Edition] but found []
+	at salesforce.SalesForceAutomationScripts.case8_DeveloperConsole(SalesForceAutomationScripts.java:209)
+

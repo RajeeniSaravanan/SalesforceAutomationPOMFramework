@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">chromeTest</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">181,926</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">chromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">salesforce.SalesForceAutomationScripts</td><td><a href="#m0">case10_CreateAccount</a></td><td rowspan="1">1686793349548</td><td rowspan="1">15980</td></tr><tr class="failedeven"><td><a href="#m1">case7_MySettings_UserMenuDropDown</a></td><td rowspan="1">1686793483279</td><td rowspan="1">23460</td></tr><tr class="failedeven"><td><a href="#m2">case8_DeveloperConsole</a></td><td rowspan="1">1686793514865</td><td rowspan="1">9907</td></tr><tr><th colspan="4">chromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">salesforce.SalesForceAutomationScripts</td><td><a href="#m3">case11_CreateNewView</a></td><td rowspan="1">1686793373969</td><td rowspan="1">19125</td></tr><tr class="passedeven"><td><a href="#m4">case1_LoginErrorMessage</a></td><td rowspan="1">1686793397631</td><td rowspan="1">1640</td></tr><tr class="passedeven"><td><a href="#m5">case2_Successful_LoginToSalesForce</a></td><td rowspan="1">1686793403632</td><td rowspan="1">14941</td></tr><tr class="passedeven"><td><a href="#m6">case3_CheckRememberMe</a></td><td rowspan="1">1686793427088</td><td rowspan="1">17690</td></tr><tr class="passedeven"><td><a href="#m7">case4A_ForgotPassword</a></td><td rowspan="1">1686793449497</td><td rowspan="1">1728</td></tr><tr class="passedeven"><td><a href="#m8">case4B_ForgotPassword</a></td><td rowspan="1">1686793455764</td><td rowspan="1">3015</td></tr><tr class="passedeven"><td><a href="#m9">case5_UserMenuDropdown</a></td><td rowspan="1">1686793463207</td><td rowspan="1">13001</td></tr></tbody>
+</table>
+<h2>chromeTest</h2><h3 id="m0">salesforce.SalesForceAutomationScripts#case10_CreateAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;lexNoThanks&apos;]&quot;}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SARAS-CNB01&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SARAVA~1.SOM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41c1571ae1a52c578752d14c74809e89
+*** Element info: {Using=xpath, value=//*[@id=&apos;lexNoThanks&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at automationbasePage.BasePage.switchToLightningPopup(BasePage.java:121)
+	at automationHomepages.HomePage.selectAccounts(HomePage.java:99)
+	at salesforce.SalesForceAutomationScripts.case10_CreateAccount(SalesForceAutomationScripts.java:233)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">salesforce.SalesForceAutomationScripts#case7_MySettings_UserMenuDropDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Reports tab not present expected [Reports] but found [Accounts]
+	at subMenusInHomePage.SalesforceChatterPage.validateReportsTab(SalesforceChatterPage.java:31)
+	at salesforce.SalesForceAutomationScripts.case7_MySettings_UserMenuDropDown(SalesForceAutomationScripts.java:169)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">salesforce.SalesForceAutomationScripts#case8_DeveloperConsole</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Title not matched expected [Home Page ~ Salesforce - Developer Edition] but found []
+	at automationbasePage.BasePage.assertPageTitle(BasePage.java:52)
+	at salesforce.SalesForceAutomationScripts.case8_DeveloperConsole(SalesForceAutomationScripts.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">salesforce.SalesForceAutomationScripts#case11_CreateNewView</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">salesforce.SalesForceAutomationScripts#case1_LoginErrorMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">salesforce.SalesForceAutomationScripts#case2_Successful_LoginToSalesForce</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">salesforce.SalesForceAutomationScripts#case3_CheckRememberMe</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">salesforce.SalesForceAutomationScripts#case4A_ForgotPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">salesforce.SalesForceAutomationScripts#case4B_ForgotPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">salesforce.SalesForceAutomationScripts#case5_UserMenuDropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

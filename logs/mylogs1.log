@@ -1,0 +1,161 @@
+20230614 21:01:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:01:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:01:43 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java217 - case10_create accounts script Started
+20230614 21:01:44 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:01:44 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
+20230614 21:01:45 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
+20230614 21:01:45 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
+20230614 21:01:45 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
+20230614 21:01:52 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230614 21:01:52 INFO  [main] automationbasePage.BasePage BasePage.java53 - Title matched in the page
+20230614 21:01:56 INFO  [main] automationHomepages.HomePage HomePage.java97 - Accounts tab selected
+20230614 21:01:59 INFO  [main] automationbasePage.BasePage BasePage.java92 - No Thanks is clicked
+20230614 21:01:59 INFO  [main] automationbasePage.BasePage BasePage.java92 - Send TO SalesForce is clicked
+20230614 21:02:04 INFO  [main] homePageTabs.AccountsPage AccountsPage.java40 - New element is clicked
+20230614 21:02:04 INFO  [main] automationbasePage.BasePage BasePage.java79 - Email Nameelement cleared 
+20230614 21:02:04 INFO  [main] automationbasePage.BasePage BasePage.java63 - Email Name Vennila is entered to the field
+20230614 21:02:04 INFO  [main] homePageTabs.AccountsPage AccountsPage.java49 - Type dropdown is clicked
+20230614 21:02:04 INFO  [main] homePageTabs.AccountsPage AccountsPage.java53 - Technology Partner is selected in type
+20230614 21:02:05 INFO  [main] homePageTabs.AccountsPage AccountsPage.java60 - Customer priority is clicked
+20230614 21:02:05 INFO  [main] homePageTabs.AccountsPage AccountsPage.java64 - Priority is selected
+20230614 21:02:09 INFO  [main] homePageTabs.AccountsPage AccountsPage.java70 - Save button is clicked
+20230614 21:02:09 INFO  [main] homePageTabs.AccountsPage AccountsPage.java78 - Pass,account name added
+20230614 21:02:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
+20230614 21:02:11 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:02:13 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:02:13 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java246 - case11_Create new view script Started
+20230614 21:02:13 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:02:14 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
+20230614 21:02:14 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
+20230614 21:02:15 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
+20230614 21:02:17 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
+20230614 21:02:20 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230614 21:02:20 INFO  [main] automationbasePage.BasePage BasePage.java53 - Title matched in the page
+20230614 21:02:24 INFO  [main] automationHomepages.HomePage HomePage.java97 - Accounts tab selected
+20230614 21:02:28 INFO  [main] automationbasePage.BasePage BasePage.java92 - No Thanks is clicked
+20230614 21:02:28 INFO  [main] automationbasePage.BasePage BasePage.java92 - Send TO SalesForce is clicked
+20230614 21:02:29 INFO  [main] homePageTabs.AccountsPage AccountsPage.java85 - Create new view is clicked
+20230614 21:02:32 INFO  [main] automationbasePage.BasePage BasePage.java79 - View Nameelement cleared 
+20230614 21:02:32 INFO  [main] automationbasePage.BasePage BasePage.java63 - View Name sri is entered to the field
+20230614 21:02:32 INFO  [main] automationbasePage.BasePage BasePage.java79 - View unique Nameelement cleared 
+20230614 21:02:32 INFO  [main] automationbasePage.BasePage BasePage.java63 - View unique Name sudha is entered to the field
+20230614 21:02:32 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
+20230614 21:02:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:02:36 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:02:36 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java34 - case1_LoginErrorMessage Started
+20230614 21:02:37 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:02:37 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
+20230614 21:02:38 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
+20230614 21:02:38 INFO  [main] automationbasePage.BasePage BasePage.java43 - Error message matched
+20230614 21:02:38 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
+20230614 21:02:40 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:02:43 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:02:43 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java47 - case2_Successful_LoginToSalesForce Started
+20230614 21:02:43 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:02:43 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
+20230614 21:02:43 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
+20230614 21:02:44 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
+20230614 21:02:44 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
+20230614 21:02:49 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230614 21:02:49 INFO  [main] automationbasePage.BasePage BasePage.java53 - Title matched in the page
+20230614 21:02:49 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
+20230614 21:02:51 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:02:54 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:02:54 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java65 - case3_CheckRememberMe Started
+20230614 21:02:54 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:02:54 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
+20230614 21:02:54 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
+20230614 21:02:55 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
+20230614 21:02:55 INFO  [main] automationLoginPages.LoginPage LoginPage.java46 - Remember me checkbox is clicked
+20230614 21:02:55 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
+20230614 21:03:01 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230614 21:03:01 INFO  [main] automationbasePage.BasePage BasePage.java53 - Title matched in the page
+20230614 21:03:01 INFO  [main] automationHomepages.HomePage HomePage.java32 - UserMenu dropdown selected
+20230614 21:03:01 INFO  [main] automationHomepages.HomePage HomePage.java39 - Logout menu selected
+20230614 21:03:04 INFO  [main] automationLoginPages.LoginPage LoginPage.java66 - Pass, username present in login page
+20230614 21:03:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
+20230614 21:03:06 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:03:09 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:03:09 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java88 - case4A_ForgotPassword Started
+20230614 21:03:09 INFO  [main] automationLoginPages.LoginPage LoginPage.java74 - Forgot password link is clicked
+20230614 21:03:09 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:03:10 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
+20230614 21:03:10 INFO  [main] automationLoginPages.LoginPage LoginPage.java86 - Continue button is clicked
+20230614 21:03:10 INFO  [main] automationLoginPages.LoginPage LoginPage.java94 - Passed: Forgot password confirmation message displayed
+20230614 21:03:10 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
+20230614 21:03:12 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:03:14 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:03:14 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java102 - case4B_ForgotPassword Started
+20230614 21:03:15 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:03:15 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName admin1@gmail.com is entered to the field
+20230614 21:03:15 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
+20230614 21:03:16 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password admin1234 is entered to the field
+20230614 21:03:16 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
+20230614 21:03:17 INFO  [main] automationLoginPages.LoginPage LoginPage.java103 - Error message matched
+20230614 21:03:17 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
+20230614 21:03:19 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:03:21 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:03:21 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java119 - case5_UserMenu Dropdown Started
+20230614 21:03:22 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:03:22 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
+20230614 21:03:22 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
+20230614 21:03:22 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
+20230614 21:03:23 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
+20230614 21:03:28 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: 
+20230614 21:03:29 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
+20230614 21:03:30 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:03:34 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:03:34 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java139 - case7_My settings usermenu dropdown script Started
+20230614 21:03:34 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:03:34 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
+20230614 21:03:35 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
+20230614 21:03:35 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
+20230614 21:03:35 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
+20230614 21:03:41 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230614 21:03:41 INFO  [main] automationbasePage.BasePage BasePage.java53 - Title matched in the page
+20230614 21:03:41 INFO  [main] automationHomepages.HomePage HomePage.java32 - UserMenu dropdown selected
+20230614 21:03:41 INFO  [main] automationHomepages.HomePage HomePage.java47 - My Settings menu selected
+20230614 21:03:44 INFO  [main] subMenusInHomePage.MySettingsPage MySettingsPage.java37 - Personal link is clicked
+20230614 21:03:45 INFO  [main] subMenusInHomePage.MySettingsPage MySettingsPage.java47 - Login history link is clicked
+20230614 21:03:45 INFO  [main] subMenusInHomePage.MySettingsPage MySettingsPage.java54 - Display and Layout link is clicked
+20230614 21:03:45 INFO  [main] subMenusInHomePage.MySettingsPage MySettingsPage.java61 - Customize my tabs link is clicked
+20230614 21:03:46 INFO  [main] subMenusInHomePage.CustomizeTabsPage CustomizeTabsPage.java34 - Salesforce chatter is clicked
+20230614 21:03:49 INFO  [main] subMenusInHomePage.CustomizeTabsPage CustomizeTabsPage.java40 - Reports tab from available tabs is selected
+20230614 21:03:49 INFO  [main] subMenusInHomePage.CustomizeTabsPage CustomizeTabsPage.java44 - Reports tab added to selected tabs
+20230614 21:03:49 INFO  [main] subMenusInHomePage.CustomizeTabsPage CustomizeTabsPage.java48 - Customized tab settings is saved
+20230614 21:03:49 INFO  [main] subMenusInHomePage.MySettingsPage MySettingsPage.java68 - Right dropdown is clicked
+20230614 21:03:51 INFO  [main] subMenusInHomePage.MySettingsPage MySettingsPage.java72 - Salesforce chatter is clicked
+20230614 21:03:54 INFO  [main] automationbasePage.BasePage BasePage.java92 - No Thanks is clicked
+20230614 21:03:54 INFO  [main] automationbasePage.BasePage BasePage.java92 - Send TO SalesForce is clicked
+20230614 21:03:57 INFO  [main] subMenusInHomePage.SalesforceChatterPage SalesforceChatterPage.java33 - Reports tab present in tab bar
+20230614 21:03:57 INFO  [main] subMenusInHomePage.SalesforceChatterPage SalesforceChatterPage.java40 - UserMenu dropdown selected
+20230614 21:03:58 INFO  [main] subMenusInHomePage.SalesforceChatterPage SalesforceChatterPage.java47 - My Settings menu selected
+20230614 21:03:58 INFO  [main] subMenusInHomePage.MySettingsPage MySettingsPage.java82 - Email link is clicked
+20230614 21:03:58 INFO  [main] subMenusInHomePage.MySettingsPage MySettingsPage.java86 - My email settings is clicked
+20230614 21:03:58 INFO  [main] automationbasePage.BasePage BasePage.java79 - Email Nameelement cleared 
+20230614 21:03:59 INFO  [main] automationbasePage.BasePage BasePage.java63 - Email Name Rajeeni Sarav is entered to the field
+20230614 21:03:59 INFO  [main] automationbasePage.BasePage BasePage.java79 - Email addresselement cleared 
+20230614 21:03:59 INFO  [main] automationbasePage.BasePage BasePage.java63 - Email address sri.saravanan27@gmail.com is entered to the field
+20230614 21:03:59 INFO  [main] subMenusInHomePage.MyEmailSettingsPage MyEmailSettingsPage.java48 - Bcc radio button clicked
+20230614 21:03:59 INFO  [main] subMenusInHomePage.MyEmailSettingsPage MyEmailSettingsPage.java55 - Email settings saved
+20230614 21:04:00 INFO  [main] subMenusInHomePage.MyEmailSettingsPage MyEmailSettingsPage.java62 - Success message present
+20230614 21:04:00 INFO  [main] subMenusInHomePage.MyEmailSettingsPage MyEmailSettingsPage.java69 - Calendar and remainders is selected
+20230614 21:04:00 INFO  [main] subMenusInHomePage.MyEmailSettingsPage MyEmailSettingsPage.java77 - Activity reminders is selected
+20230614 21:04:00 INFO  [main] subMenusInHomePage.ActivityRemindersPage ActivityRemindersPage.java32 - Open test reminder is selected
+20230614 21:04:00 INFO  [main] subMenusInHomePage.ActivityRemindersPage ActivityRemindersPage.java49 - Switched to Parent window
+20230614 21:04:01 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
+20230614 21:04:02 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java117 - chromeBrowser opened
+20230614 21:04:05 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java154 - Url entered
+20230614 21:04:05 INFO  [main] salesforce.SalesForceAutomationScripts SalesForceAutomationScripts.java196 - case8_Developer console script Started
+20230614 21:04:06 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
+20230614 21:04:06 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
+20230614 21:04:07 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
+20230614 21:04:07 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
+20230614 21:04:07 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
+20230614 21:04:12 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230614 21:04:12 INFO  [main] automationbasePage.BasePage BasePage.java53 - Title matched in the page
+20230614 21:04:12 INFO  [main] automationHomepages.HomePage HomePage.java32 - UserMenu dropdown selected
+20230614 21:04:12 INFO  [main] automationHomepages.HomePage HomePage.java71 - Developer console menu selected
+20230614 21:04:18 INFO  [main] automationHomepages.HomePage HomePage.java85 - Developer console closed
+20230614 21:04:18 INFO  [main] automationHomepages.HomePage HomePage.java89 - Passed: Switched to Previous window
+20230614 21:04:18 INFO  [main] salesforce.SalesForceBaseTest SalesForceBaseTest.java82 - Browser closed
