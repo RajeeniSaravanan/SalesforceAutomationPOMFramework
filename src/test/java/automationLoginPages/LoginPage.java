@@ -9,6 +9,7 @@ import org.testng.Assert;
 
 import automationbasePage.BasePage;
 
+//creating loginpage class which extends basepage
 public class LoginPage extends BasePage
 {
 	@FindBy(id="username") WebElement userName_Field;
